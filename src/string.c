@@ -2,7 +2,7 @@
 
 return (p -s );
 }
-char *my_strcpy(char *t, char *s)
+char *my_strcpy(cons char *t, char *s)
 
 {
    
