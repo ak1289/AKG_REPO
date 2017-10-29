@@ -2,7 +2,7 @@
 
 return (p -s );
 }
-char *my_strcpy(Wchar *t, char *s)
+char *my_strcpy(const Wchar *t, char *s)
 
 {
    
