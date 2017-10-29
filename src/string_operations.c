@@ -1,11 +1,23 @@
 #include <stdio.h>
+#include <wchar.h>
+size_t w_strlen(const wchar_t *s)
+{
+   const wchar_t *p = s;
+
+   while (*p)
+      ++p;
+
+   return (p - s);
+}
 
 return (p -s );
 }
+<<<<<<< HEAD
 
-'Addding new line to check the merge command'
-
+char *my_strcpy(Wchar *t, char *s)
+=======
 char *my_strcpy(const Wchar *t, char *s)
+>>>>>>> origin/wchar_support
 
 {
    
