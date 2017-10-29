@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <wchar.h>
-size_t My_WCstrlen(const wchar_t *s, wchar_t *t)
+<<<<<<< HEAD
+size_t My_WC_strlen(const wchar_t *s, wchar_t *t)
+=======
+size_t My_WC_strlen(const wchar_t *s, wchar_t *wc)
+>>>>>>> 8b68f2100fb315652ee22aa7cf37432c16a5ad7c
 {
    const wchar_t *p = s;
 
