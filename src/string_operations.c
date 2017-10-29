@@ -2,12 +2,7 @@
 
 return (p -s );
 }
-<<<<<<< HEAD
-char *my_strcpy(char *t, char *s)
-=======
-char *my_strcpy(Wchar *t, char *s)
->>>>>>> origin/wchar_support
-
+char *my_strcpy(Wchar *a, char *b)
 {
    
    char *p = t;
