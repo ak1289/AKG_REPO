@@ -3,6 +3,8 @@
 return (p -s );
 }
 
+'Addding new line to check the merge command'
+
 char *my_strcpy(const Wchar *t, char *s)
 
 {
