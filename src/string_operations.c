@@ -3,7 +3,7 @@
 <<<<<<< HEAD
 size_t My_strlen(const wchar_t *s)
 =======
-size_t My_strlen(const wchar_t *s, wchar_t *t)
+size_t My_T_strlen(const wchar_t *s, wchar_t *t)
 >>>>>>> 56cb9265e5298a49f931bae70cb57593afab7001
 {
    const wchar_t *p = s;
